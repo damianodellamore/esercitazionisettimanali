@@ -1,0 +1,145 @@
+/* Your styles here */
+html {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ background-color: #ffffff;
+
+  font-size: 1em;
+  box-sizing: border-box;
+ 
+  color:black;
+}
+
+body {color:#393d41;
+    line-height: 1.65;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3 {
+    color:#25a2c3;
+    font-family:'Montserrat', sans-serif ;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+/*HEADER*/
+
+header{
+   background-color: black;
+    width: 100%;
+}
+#logo{padding: 25px 60px;
+    width: 200px;
+}
+.intro{
+    background-image: url(../images/banner.jpg);
+    background-size: contain;
+    width: 100%;
+    height:35rem;
+   padding: 30px 60px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contentIntro{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 30px 90px;
+    flex-direction: column;
+}
+h1{
+    font-size: 3rem; text-align: center;
+    line-height: 100px;
+}
+#blackp{
+    text-align: center;
+}
+button{
+   
+    margin-top: 60px;
+
+    height:40px;
+width: 180px;
+border: none;
+border-radius: 8px;
+background-color: rgb(234,52,36);
+color:white;
+font-size: 1.2rem;}
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{display:flex;
+    width: 100%;
+    height:50rem;
+}
+.laptop{ width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.laptopDue{
+    width: 50%;
+    display:flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.laptop >img{
+
+border-radius: 50%;
+}
+.garanzia{width: 100%;
+    height:28rem;
+    background-color:rgb(234,52,36);
+    text-align: center;
+    padding: 60px 0;
+
+    
+}
+.garanzia * {margin: 80px 70px;
+    line-height: 1.2rem;
+    color:white;
+    font-size: 1.2rem;
+}
+#titleGaranzia{
+    font-size: 3rem;
+}
+.serieFoto{padding: 190px 0%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.primaserie, .secondaserie, .terzaserie{ display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+
+footer{display:flex;
+    width: 100%;
+    height:30rem;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6rem;
+    color:white;
+    background-color: #25a2c3;
+   
+}
+a:link{
+    color:white;
+}
+#fonteasy{
+    font-size: 2.5rem;
+}
+footer *{
+    padding: 0 50px;
+}
